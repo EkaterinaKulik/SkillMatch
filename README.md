@@ -24,7 +24,7 @@ SkillMatch is a Streamlit-based tool that compares your current skills to real j
 
 ## Preview
 ![SkillMatch screenshot](Capture d’écran 2025-03-30 à 11.12.03.png)
-![SkillMatch screenshot](Capture d’écran 2025-03-30 à 11.12.13.png)
+
 
 ## Future ideas
 
