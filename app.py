@@ -58,6 +58,8 @@ if right.button("Send", type="primary"):
     st.markdown("### Top Matching Vacancies:")
     for vacancy in result["offers"]: 
         st.markdown(f"[{vacancy['name']}]({vacancy['alternate_url']})")
+        st.markdown(f"{vacancy['description']}")
+        st.markdown("---")
 
   else:
     st.subheader("You might need to learn a bit more") 
