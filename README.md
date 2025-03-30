@@ -23,7 +23,8 @@ SkillMatch is a Streamlit-based tool that compares your current skills to real j
 - Plotly
 
 ## Preview
-![SkillMatch screenshot](Capture d’écran 2025-03-30 à 11.12.03.png)
+![SkillMatch screenshot](skillmatch_preview_zero.png)
+![SkillMatch screenshot](skillmatch_preview.png)
 
 
 ## Future ideas
