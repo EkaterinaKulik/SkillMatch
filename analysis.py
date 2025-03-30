@@ -8,7 +8,7 @@ import urllib.parse
 import plotly.graph_objects as go
 from scipy.stats import gaussian_kde
 
-def get_links(vacancy, grade, pages=1):
+def get_links(vacancy, grade, pages=2):
     """
     Collect vacancy API URLs from HeadHunter based on position and grade.
 
@@ -33,7 +33,7 @@ def get_links(vacancy, grade, pages=1):
             "text": f"{vacancy} {grade}",
             "area": 1,  
             "page": page,
-            "per_page": 20
+            "per_page": 100
         }
 
         try:
